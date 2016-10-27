@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B1D7920B-B0CB-4C19-A13F-6363ABD4C5CA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Mario</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mario.h" />
+    <ClInclude Include="Ralph.h" />
+    <ClInclude Include="RGBA.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="b.bmp" />
+    <Image Include="b0.bmp" />
+    <Image Include="b1.bmp" />
+    <Image Include="b10.bmp" />
+    <Image Include="b11.bmp" />
+    <Image Include="b12.bmp" />
+    <Image Include="b13.bmp" />
+    <Image Include="b14.bmp" />
+    <Image Include="b15.bmp" />
+    <Image Include="b16.bmp" />
+    <Image Include="b17.bmp" />
+    <Image Include="b18.bmp" />
+    <Image Include="b19.bmp" />
+    <Image Include="b2.bmp" />
+    <Image Include="b20.bmp" />
+    <Image Include="b21.bmp" />
+    <Image Include="b22.bmp" />
+    <Image Include="b23.bmp" />
+    <Image Include="b3.bmp" />
+    <Image Include="b4.bmp" />
+    <Image Include="b5.bmp" />
+    <Image Include="b6.bmp" />
+    <Image Include="b7.bmp" />
+    <Image Include="b8.bmp" />
+    <Image Include="b9.bmp" />
+    <Image Include="backGround.bmp" />
+    <Image Include="box.bmp" />
+    <Image Include="Girnatmp-0.bmp" />
+    <Image Include="Girnatmp-1.bmp" />
+    <Image Include="Girnatmp-10.bmp" />
+    <Image Include="Girnatmp-11.bmp" />
+    <Image Include="Girnatmp-12.bmp" />
+    <Image Include="Girnatmp-13.bmp" />
+    <Image Include="Girnatmp-14.bmp" />
+    <Image Include="Girnatmp-15.bmp" />
+    <Image Include="Girnatmp-16.bmp" />
+    <Image Include="Girnatmp-2.bmp" />
+    <Image Include="Girnatmp-3.bmp" />
+    <Image Include="Girnatmp-4.bmp" />
+    <Image Include="Girnatmp-5.bmp" />
+    <Image Include="Girnatmp-6.bmp" />
+    <Image Include="Girnatmp-7.bmp" />
+    <Image Include="Girnatmp-8.bmp" />
+    <Image Include="Girnatmp-9.bmp" />
+    <Image Include="hadu0.bmp" />
+    <Image Include="hadu1.bmp" />
+    <Image Include="hadu10.bmp" />
+    <Image Include="hadu11.bmp" />
+    <Image Include="hadu12.bmp" />
+    <Image Include="hadu13.bmp" />
+    <Image Include="hadu2.bmp" />
+    <Image Include="hadu3.bmp" />
+    <Image Include="hadu4.bmp" />
+    <Image Include="hadu5.bmp" />
+    <Image Include="hadu6.bmp" />
+    <Image Include="hadu7.bmp" />
+    <Image Include="hadu8.bmp" />
+    <Image Include="hadu9.bmp" />
+    <Image Include="ken0.bmp" />
+    <Image Include="ken1.bmp" />
+    <Image Include="ken2.bmp" />
+    <Image Include="ken3.bmp" />
+    <Image Include="ken4.bmp" />
+    <Image Include="ken5.bmp" />
+    <Image Include="ken6.bmp" />
+    <Image Include="ken7.bmp" />
+    <Image Include="ken8.bmp" />
+    <Image Include="ken9.bmp" />
+    <Image Include="kenJump0.bmp" />
+    <Image Include="kenJump1.bmp" />
+    <Image Include="kenJump10.bmp" />
+    <Image Include="kenJump11.bmp" />
+    <Image Include="kenJump12.bmp" />
+    <Image Include="kenJump13.bmp" />
+    <Image Include="kenJump14.bmp" />
+    <Image Include="kenJump15.bmp" />
+    <Image Include="kenJump16.bmp" />
+    <Image Include="kenJump17.bmp" />
+    <Image Include="kenJump18.bmp" />
+    <Image Include="kenJump19.bmp" />
+    <Image Include="kenJump2.bmp" />
+    <Image Include="kenJump20.bmp" />
+    <Image Include="kenJump3.bmp" />
+    <Image Include="kenJump4.bmp" />
+    <Image Include="kenJump5.bmp" />
+    <Image Include="kenJump6.bmp" />
+    <Image Include="kenJump7.bmp" />
+    <Image Include="kenJump8.bmp" />
+    <Image Include="kenJump9.bmp" />
+    <Image Include="kenPunched0.bmp" />
+    <Image Include="kenPunched1.bmp" />
+    <Image Include="kenWalk0.bmp" />
+    <Image Include="kenWalk1.bmp" />
+    <Image Include="kenWalk10.bmp" />
+    <Image Include="kenWalk11.bmp" />
+    <Image Include="kenWalk2.bmp" />
+    <Image Include="kenWalk3.bmp" />
+    <Image Include="kenWalk4.bmp" />
+    <Image Include="kenWalk5.bmp" />
+    <Image Include="kenWalk6.bmp" />
+    <Image Include="kenWalk7.bmp" />
+    <Image Include="kenWalk8.bmp" />
+    <Image Include="kenWalk9.bmp" />
+    <Image Include="Ken\tmp-0.bmp" />
+    <Image Include="landing.bmp" />
+    <Image Include="MarioJump.bmp" />
+    <Image Include="MarioRun1.bmp" />
+    <Image Include="MarioRun2.bmp" />
+    <Image Include="MarioRun3.bmp" />
+    <Image Include="MarioStanding.bmp" />
+    <Image Include="powerKen.bmp" />
+    <Image Include="punched.bmp" />
+    <Image Include="ralfGirnatmp-0.bmp" />
+    <Image Include="ralfGirnatmp-1.bmp" />
+    <Image Include="ralfGirnatmp-10.bmp" />
+    <Image Include="ralfGirnatmp-11.bmp" />
+    <Image Include="ralfGirnatmp-12.bmp" />
+    <Image Include="ralfGirnatmp-13.bmp" />
+    <Image Include="ralfGirnatmp-14.bmp" />
+    <Image Include="ralfGirnatmp-15.bmp" />
+    <Image Include="ralfGirnatmp-16.bmp" />
+    <Image Include="ralfGirnatmp-17.bmp" />
+    <Image Include="ralfGirnatmp-18.bmp" />
+    <Image Include="ralfGirnatmp-19.bmp" />
+    <Image Include="ralfGirnatmp-2.bmp" />
+    <Image Include="ralfGirnatmp-20.bmp" />
+    <Image Include="ralfGirnatmp-21.bmp" />
+    <Image Include="ralfGirnatmp-22.bmp" />
+    <Image Include="ralfGirnatmp-3.bmp" />
+    <Image Include="ralfGirnatmp-4.bmp" />
+    <Image Include="ralfGirnatmp-5.bmp" />
+    <Image Include="ralfGirnatmp-6.bmp" />
+    <Image Include="ralfGirnatmp-7.bmp" />
+    <Image Include="ralfGirnatmp-8.bmp" />
+    <Image Include="ralfGirnatmp-9.bmp" />
+    <Image Include="ralphJumpStanding0.bmp" />
+    <Image Include="ralphJumpStanding1.bmp" />
+    <Image Include="ralphJumpStanding10.bmp" />
+    <Image Include="ralphJumpStanding11.bmp" />
+    <Image Include="ralphJumpStanding12.bmp" />
+    <Image Include="ralphJumpStanding13.bmp" />
+    <Image Include="ralphJumpStanding14.bmp" />
+    <Image Include="ralphJumpStanding15.bmp" />
+    <Image Include="ralphJumpStanding16.bmp" />
+    <Image Include="ralphJumpStanding17.bmp" />
+    <Image Include="ralphJumpStanding18.bmp" />
+    <Image Include="ralphJumpStanding2.bmp" />
+    <Image Include="ralphJumpStanding3.bmp" />
+    <Image Include="ralphJumpStanding4.bmp" />
+    <Image Include="ralphJumpStanding5.bmp" />
+    <Image Include="ralphJumpStanding6.bmp" />
+    <Image Include="ralphJumpStanding7.bmp" />
+    <Image Include="ralphJumpStanding8.bmp" />
+    <Image Include="ralphJumpStanding9.bmp" />
+    <Image Include="ralphPunch0.bmp" />
+    <Image Include="ralphPunch1.bmp" />
+    <Image Include="ralphPunch2.bmp" />
+    <Image Include="ralphPunch3.bmp" />
+    <Image Include="ralphPunch4.bmp" />
+    <Image Include="ralphPunch5.bmp" />
+    <Image Include="ralphPunch6.bmp" />
+    <Image Include="ralphPunch7.bmp" />
+    <Image Include="ralphPunch8.bmp" />
+    <Image Include="ralphSmallPunch0.bmp" />
+    <Image Include="ralphSmallPunch1.bmp" />
+    <Image Include="ralphSmallPunch2.bmp" />
+    <Image Include="ralphSmallPunch3.bmp" />
+    <Image Include="ralphStanding0.bmp" />
+    <Image Include="ralphStanding1.bmp" />
+    <Image Include="ralphStanding10.bmp" />
+    <Image Include="ralphStanding11.bmp" />
+    <Image Include="ralphStanding12.bmp" />
+    <Image Include="ralphStanding13.bmp" />
+    <Image Include="ralphStanding14.bmp" />
+    <Image Include="ralphStanding15.bmp" />
+    <Image Include="ralphStanding16.bmp" />
+    <Image Include="ralphStanding17.bmp" />
+    <Image Include="ralphStanding18.bmp" />
+    <Image Include="ralphStanding19.bmp" />
+    <Image Include="ralphStanding2.bmp" />
+    <Image Include="ralphStanding20.bmp" />
+    <Image Include="ralphStanding21.bmp" />
+    <Image Include="ralphStanding22.bmp" />
+    <Image Include="ralphStanding23.bmp" />
+    <Image Include="ralphStanding24.bmp" />
+    <Image Include="ralphStanding25.bmp" />
+    <Image Include="ralphStanding26.bmp" />
+    <Image Include="ralphStanding27.bmp" />
+    <Image Include="ralphStanding28.bmp" />
+    <Image Include="ralphStanding29.bmp" />
+    <Image Include="ralphStanding3.bmp" />
+    <Image Include="ralphStanding30.bmp" />
+    <Image Include="ralphStanding31.bmp" />
+    <Image Include="ralphStanding32.bmp" />
+    <Image Include="ralphStanding33.bmp" />
+    <Image Include="ralphStanding34.bmp" />
+    <Image Include="ralphStanding4.bmp" />
+    <Image Include="ralphStanding5.bmp" />
+    <Image Include="ralphStanding6.bmp" />
+    <Image Include="ralphStanding7.bmp" />
+    <Image Include="ralphStanding8.bmp" />
+    <Image Include="ralphStanding9.bmp" />
+    <Image Include="ralphWalk0.bmp" />
+    <Image Include="ralphWalk1.bmp" />
+    <Image Include="ralphWalk2.bmp" />
+    <Image Include="ralphWalk3.bmp" />
+    <Image Include="ralphWalk4.bmp" />
+    <Image Include="ralphWalk5.bmp" />
+    <Image Include="ralphWalk6.bmp" />
+    <Image Include="ralphWin.bmp" />
+    <Image Include="ryoWin.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

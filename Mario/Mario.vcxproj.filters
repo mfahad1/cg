@@ -1,0 +1,668 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ralph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="MarioJump.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MarioRun1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MarioRun2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MarioRun3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MarioStanding.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="backGround.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b23.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="b0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Ken\tmp-0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ken1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ken3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ken4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ken5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ken6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ken7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ken8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ken9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ken0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ken2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenWalk1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenWalk2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenWalk3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenWalk4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenWalk5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenWalk6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenWalk0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenWalk7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenWalk8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenWalk9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenWalk10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenWalk11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenJump20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding23.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding25.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding26.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding27.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding28.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding29.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding30.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding31.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding32.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding33.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphStanding34.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphWalk0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphWalk1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphWalk2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphWalk3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphWalk4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphWalk5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphWalk6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphJumpStanding18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphSmallPunch0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphSmallPunch1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphSmallPunch2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphSmallPunch3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="box.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphPunch0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphPunch1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphPunch2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphPunch3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphPunch4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphPunch5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphPunch6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphPunch7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphPunch8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="punched.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenPunched0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kenPunched1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Girnatmp-16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="powerKen.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hadu0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hadu1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hadu2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hadu3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hadu4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hadu5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hadu6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hadu7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hadu8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hadu9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hadu10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hadu11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hadu12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hadu13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralfGirnatmp-22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="landing.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ralphWin.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ryoWin.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
